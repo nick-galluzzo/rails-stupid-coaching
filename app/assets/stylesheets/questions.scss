@@ -1,3 +1,47 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+$blue: #6f6de8;
+$yellow: #FFFEE1;
+
+body {
+  background: $gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-button {
+  background: $blue;
+  width: 4rem;
+  height: 2rem;
+}
+
+.text-form {
+  width: 16rem;
+  height: 2rem;
+}
+
+.coach-answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $yellow;
+  width: 400px;
+  height: 100px;
+}
+
+.user-question {
+  background: white;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
